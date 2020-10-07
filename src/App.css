@@ -1,32 +1,98 @@
+body{
+ 
+  /* background-color: #f67d65; */
+}
+
 .App {
   text-align: center;
+  background-image:url('./imgs/victoria-shes-jdO2CJ_OwCo-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media(min-width:768px){
+  .App{
+    background-image:url('./imgs/victoria-shes-jdO2CJ_OwCo-unsplash.jpg');
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.wrapper{
+  height: 100vh;
+  width:100%;
+  background-color: rgba(0,0,0,.5);
 }
 
-.App-link {
-  color: #61dafb;
+@media(min-width:768px){
+  .wrapper{
+    background-color:transparent;
+  }
 }
+
+
+.logo{
+  margin-bottom:100px;
+}
+
+
+.sign-up {
+  padding:20px;
+  padding-top:50px;
+  margin:0 auto;
+  width:100%;
+  
+  position: relative;
+}
+
+.sign-up p{
+  color:#fff;
+  font-size:1.5rem;
+  line-height: 1.625;
+}
+
+.sign-up h1{
+  font-size:2rem;
+  font-weight: bold;
+  color:#fff;
+  margin-bottom:1.5rem;
+}
+
+.sign-up label{
+  width:100%;
+  margin-right:10px;
+}
+
+.sign-up__button {
+  margin-top:15px;
+}
+
+@media(min-width:768px){
+
+  .sign-up{
+    width:700px;
+    position: absolute;
+    left:50%;
+    top:15%;
+    transform: translateX(-50%);
+    padding:15;
+  }
+
+  .sign-up label{
+    width:400px;
+  }
+
+  .sign-up__button{
+    margin-top: 0
+  }
+
+}
+
+.sign-up .email{
+  display: flex;
+  justify-content: space-between;
+  margin-top:50px;
+}
+
 
 @keyframes App-logo-spin {
   from {
