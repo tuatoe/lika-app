@@ -1,7 +1,6 @@
 import React from 'react';
 import logo from './imgs/LIKA_1cl.png';
 import './App.css';
-import SuccessPage from './components/success.js'
 
 // import firebase from './firebase'
 
@@ -32,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <div className="wrapper">
-        <form name="sign-up" data-netlify="true" action={SuccessPage} className="sign-up">
+        <form name="sign-up" data-netlify="true" action="POST" className="sign-up">
           <img className="logo" src={logo} alt="lika app logo" />
           <h1>SOMETHING AWESOME IS COMING</h1>
           <p>It's going to be amazing! Sign up to find our when it's ready.</p>
