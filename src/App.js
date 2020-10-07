@@ -1,8 +1,8 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React from 'react';
 import logo from './imgs/LIKA_1cl.png';
 import './App.css';
 
-import firebase from './firebase'
+// import firebase from './firebase'
 
 // firebase.firestore().collection('customers').add({
 //   "email": "john.doe@gmail.com",
@@ -11,11 +11,11 @@ import firebase from './firebase'
 
 function App() {
 
-  const db = firebase.firestore();
+  // const db = firebase.firestore();
 
-  const usersRef = db.collection('customers');
+  // const usersRef = db.collection('customers');
 
-  const [email, setEmail] = useState('');
+  // const [email, setEmail] = useState('');
 
   // const handleSubmit = (e) => {
 
