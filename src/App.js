@@ -17,17 +17,17 @@ function App() {
 
   const [email, setEmail] = useState('');
 
-  const handleSubmit = (e) => {
+  // const handleSubmit = (e) => {
 
-    e.preventDefault()
+  //   e.preventDefault()
 
-    usersRef.add({
-      "email": email
-    })
-      .then(() => {
-        setEmail('')
-      })
-  }
+  //   usersRef.add({
+  //     "email": email
+  //   })
+  //     .then(() => {
+  //       setEmail('')
+  //     })
+  // }
   return (
     <div className="App">
       <div className="wrapper">
