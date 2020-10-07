@@ -39,7 +39,7 @@ function App() {
             <div className="col-12">
               <label>
                 <span className="sr-only">Email address, is required</span>
-                <input id="lika_email" name="lika-email" placeholder="Email address" className="form-control" type="email" required />
+                <input id="email" name="email" placeholder="Email address" className="form-control" type="email" required />
               </label>
               <button type="submit" className="btn btn-danger sign-up__button">Sign up</button>
             </div>
