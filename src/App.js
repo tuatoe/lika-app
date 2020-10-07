@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App">
       <div className="wrapper">
-        <form onSubmit={handleSubmit} data-netlify="true" action="POST" className="sign-up">
+        <form data-netlify="true" action="POST" className="sign-up">
           <img className="logo" src={logo} alt="lika app logo" />
           <h1>SOMETHING AWESOME IS COMING</h1>
           <p>It's going to be amazing! Sign up to find our when it's ready.</p>
@@ -41,7 +41,7 @@ function App() {
                 <span className="sr-only">Email address, is required</span>
                 <input id="lika_email" name="lika-email" onChange={e => setEmail(e.currentTarget.value)} placeholder="Email address" value={email} className="form-control" type="email" required />
               </label>
-              <button className="btn btn-danger sign-up__button">Sign up</button>
+              <button type="submit" className="btn btn-danger sign-up__button">Sign up</button>
             </div>
           </div>
         </form>
