@@ -5,22 +5,16 @@ body{
 
 .App {
   text-align: center;
-  background-image:url('./imgs/victoria-shes-jdO2CJ_OwCo-unsplash.jpg');
+  background-color: #f37055;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-}
 
-@media(min-width:768px){
-  .App{
-    background-image:url('./imgs/victoria-shes-jdO2CJ_OwCo-unsplash.jpg');
-  }
 }
 
 .wrapper{
   height: 100vh;
   width:100%;
-  background-color: rgba(0,0,0,.5);
 }
 
 @media(min-width:768px){
