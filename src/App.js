@@ -18,7 +18,6 @@ function App() {
                 <span className="sr-only">Email address, is required</span>
                 <input id="email" name="email" placeholder="Email address" className="form-control" type="email" required />
               </label>
-              <div data-netlify-recaptcha="true"></div>
               <button type="submit" className="btn btn-danger sign-up__button">Sign up</button>
             </div>
           </div>
