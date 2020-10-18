@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="wrapper">
-        <form name="contact" action="/success" method="POST" data-netlify={true} className="sign-up">
+        <form name="contact" method="POST" netlify className="sign-up">
           <img className="logo" src={logo} alt="lika app logo" />
           <h1>SOMETHING AWESOME IS COMING</h1>
           <p>It's going to be amazing! Sign up to find our when it's ready.</p>
